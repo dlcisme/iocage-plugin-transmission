@@ -44,7 +44,7 @@ sysrc "transmission_enable=YES"
 sysrc "transmission_conf_dir=$TRANSMISSION_CONFIG_DIR"
 
 # change transmission's group to be media
-#pw usermod transmission -g media
+pw usermod transmission -g media
 
 # start the transmission service
 service transmission start
