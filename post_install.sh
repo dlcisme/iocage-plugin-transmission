@@ -43,6 +43,9 @@ sysrc "transmission_enable=YES"
 # set the location for transmission configuration directory
 sysrc "transmission_conf_dir=$TRANSMISSION_CONFIG_DIR"
 
+# set the location for transmission download directory
+sysrc "transmission_download_dir=$TRANSMISSION_DOWNLOAD_DIR"
+
 # change transmission's group to be media
 pw usermod transmission -g media
 
